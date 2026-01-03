@@ -24,7 +24,6 @@ export default function Home() {
     { name: "JavaScript", icon: Code2, color: "#F7DF1E", level: 85 },
     { name: "Python", icon: Terminal, color: "#3776AB", level: 80 },
     { name: "C / C++", icon: Cpu, color: "#00599C", level: 75 },
-    { name: "Data Structures", icon: Database, color: "#9D00FF", level: 70 },
   ];
 
   return (
@@ -81,10 +80,10 @@ export default function Home() {
             </motion.div>
 
             <div className="flex gap-6 pt-4">
-              <a href="https://github.com" target="_blank" className="text-muted-foreground hover:text-white hover:scale-110 transition-all">
+              <a href="https://github.com/Aditya-Anarse" target="_blank" className="text-muted-foreground hover:text-white hover:scale-110 transition-all">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="https://linkedin.com/in/aditya-anarase-ba9a98361" target="_blank" className="text-muted-foreground hover:text-[#0077b5] hover:scale-110 transition-all">
+              <a href="https://linkedin.com/in/aditya-an-ba9a98361" target="_blank" className="text-muted-foreground hover:text-[#0077b5] hover:scale-110 transition-all">
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="mailto:adityaanarase8@gmail.com" className="text-muted-foreground hover:text-red-500 hover:scale-110 transition-all">
@@ -245,38 +244,17 @@ export default function Home() {
             <div className="h-1 w-20 bg-gradient-to-r from-accent to-primary mx-auto rounded-full" />
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Project 1 */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+            {/* Insight Weaver Project */}
             <ProjectCard 
-              title="Data Viz Dashboard"
-              description="A real-time data visualization dashboard using React, Recharts, and Python backend for analytics."
-              tags={["React", "Python", "D3.js"]}
-              /* Unsplash: futuristic dashboard analytics dark mode */
-              imageUrl="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
-              githubUrl="https://github.com"
+              title="Insight Weaver"
+              description="Insight Weaver is an interactive web application I built to showcase my front-end development abilities and design sensibilities. The project demonstrates my skills in creating responsive, user-friendly websites with modern layouts and practical features. The site highlights key aspects of interactive UI and structured presentation of content, making it visually engaging and intuitive to navigate."
+              tags={["Python", "HTML", "CSS", "JavaScript"]}
+              /* Unsplash: interactive web application design */
+              imageUrl="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+              githubUrl="https://github.com/Aditya-Anarse"
+              liveUrl="https://insight-weaver-47453e6a.base44.app/"
               delay={0}
-            />
-
-            {/* Project 2 */}
-            <ProjectCard 
-              title="Neural Net Visualizer"
-              description="Interactive 3D visualization of neural network layers and activation functions for educational purposes."
-              tags={["Three.js", "WebGL", "TensorFlow"]}
-              /* Unsplash: artificial intelligence neural network */
-              imageUrl="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
-              githubUrl="https://github.com"
-              delay={0.2}
-            />
-
-            {/* Project 3 */}
-            <ProjectCard 
-              title="Portfolio v1"
-              description="My first portfolio website built with HTML, CSS, and vanilla JS. A stepping stone to modern web dev."
-              tags={["HTML5", "CSS3", "JavaScript"]}
-              /* Unsplash: code on screen dark mode */
-              imageUrl="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
-              githubUrl="https://github.com"
-              delay={0.4}
             />
           </div>
         </div>
