@@ -44,14 +44,12 @@ export default function SkillCard({ name, icon: Icon, color, level, delay }: Ski
           <div className="w-full bg-white/10 h-1.5 rounded-full overflow-hidden mt-2">
             <motion.div 
               initial={{ width: 0 }}
-              whileInView={{ width: `${level}%` }}
+              whileInView={{ width: "100%" }}
               transition={{ duration: 1, delay: delay + 0.2 }}
               className="h-full rounded-full"
               style={{ backgroundColor: color }}
             />
           </div>
-          
-          <span className="text-xs font-mono text-muted-foreground">{level}% Proficiency</span>
         </div>
       </div>
     </motion.div>
