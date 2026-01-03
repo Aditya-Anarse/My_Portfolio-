@@ -74,7 +74,7 @@ export default function Home() {
             </motion.div>
 
             <div className="flex gap-6 pt-4">
-              <a href="https://github.com/Aditya-Anarse" target="_blank" className="text-muted-foreground hover:text-white hover:scale-110 transition-all">
+              <a href="https://github.com/Aditya-Anarse/Portfolio-.git" target="_blank" className="text-muted-foreground hover:text-white hover:scale-110 transition-all">
                 <Github className="w-6 h-6" />
               </a>
               <a href="https://linkedin.com/in/aditya-an-ba9a98361" target="_blank" className="text-muted-foreground hover:text-[#0077b5] hover:scale-110 transition-all">
@@ -246,7 +246,7 @@ export default function Home() {
               tags={["Python", "HTML", "CSS", "JavaScript"]}
               /* Unsplash: interactive web application design */
               imageUrl="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
-              githubUrl="https://github.com/Aditya-Anarse"
+              githubUrl="https://github.com/Aditya-Anarse/Portfolio-.git"
               liveUrl="https://insight-weaver-47453e6a.base44.app/"
               delay={0}
             />
